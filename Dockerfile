@@ -1,8 +1,8 @@
 FROM ventx/alpine
 
 ENV TERRAFORM_VERSION 0.11.8
-ENV KOPS_VERSION 1.9.2
-ENV KUBECTL_VERSION v1.9.2
+ENV KOPS_VERSION 1.10.0
+ENV KUBECTL_VERSION v1.10.11
 
 RUN apk --update --no-cache add libc6-compat git openssh-client python py-pip && pip install awscli
 
